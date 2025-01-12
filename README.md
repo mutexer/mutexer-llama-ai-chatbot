@@ -14,7 +14,7 @@ Python and flask are used to create a responsive frontend that works on desktop 
 
 ## Features
 - Conversational interface 
-- Conversation history 
+- Context-aware conversation
 - Code highlighting and copy  
 - (Optional) Live updating dashboard to track device temperature, cpu load average and memory usage.  
 
