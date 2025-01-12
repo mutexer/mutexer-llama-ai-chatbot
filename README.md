@@ -1,2 +1,2 @@
 # Llama AI Chatbot for Raspberry Pi on Mutexer
-Sample repository demonstrating the deployment of a LLM onto a Raspberry Pi
+![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
