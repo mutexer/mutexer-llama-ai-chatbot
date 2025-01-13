@@ -16,7 +16,7 @@ Python and flask are used to create a responsive frontend that works on desktop 
 - Conversational interface 
 - Context-aware conversation
 - Code highlighting and copy  
-- (Optional) Live updating dashboard to track device temperature, cpu load average and memory usage.  
+- (Optional) Live updating dashboard to track device temperature, cpu load average and memory usage from another project [flask-live-daskboard](https://github.com/mutexer/mutexer-flask-live-daskboard/tree/main)
 
 ## Large Language Model
 **Project uses [meta-llama/Llama-3.2-1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct)**
