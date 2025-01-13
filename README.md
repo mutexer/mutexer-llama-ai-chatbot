@@ -24,7 +24,7 @@ Python and flask are used to create a responsive frontend that works on desktop 
 This is a one billion parameter model. Feel free to switch out the LLM for other great options as you see fit. 
 
 ## Interface
-<img src="https://mutexer-static-public-assets.s3.ap-southeast-2.amazonaws.com/Github/chatbot-llm.png" alt="desktop-chatbot" width="600"/> 
+<img src="https://mutexer-static-public-assets.s3.ap-southeast-2.amazonaws.com/Github/chatbot-llm-image.png" alt="desktop-chatbot" width="800"/> 
 
 
 
