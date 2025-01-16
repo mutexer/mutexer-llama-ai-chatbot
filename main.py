@@ -14,16 +14,18 @@ class PythonProgram:
            return redirect(url_for('loading'))
        else:
            # Once the model is loaded, render the main page
-           return render_template("index.html", ip_address=self.ip_address)
+           host_ip = request.host.split(':')[0]
+           return render_template('index.html', ip_address=host_ip)
 
    def loading_page(self):
        """
        A simple page to show that the model is still loading.
        """
+       host_ip = request.host.split(':')[0]
        if self.model_is_loaded:
-           return render_template("index.html", ip_address=self.ip_address)
+           return render_template('index.html', ip_address=host_ip)
        else:
-           return render_template('loading.html', ip_address=self.ip_address)
+           return render_template('index.html', ip_address=host_ip)
 
    def serve_static_files(self, filename):
        from flask import send_from_directory
@@ -94,10 +96,7 @@ class PythonProgram:
 
    # Run code on initialisation of the program 
    def on_initialize(self):
-
-      # Set your Cloundlink device ip address
-      self.ip_address = "10.8.0.172"
-      
+      # Initialise app      
       self.app = Flask(__name__, template_folder='.')
       
       # A secret key is required to use session in Flask
